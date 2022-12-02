@@ -17,5 +17,5 @@ USER node
 
 EXPOSE 8080
 
-# Command on container startup to start node server and listen on Port 80
+# Command on container startup to start node server and listen on Port 8080
 CMD node /app/index.js
